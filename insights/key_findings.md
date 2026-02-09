@@ -65,8 +65,25 @@ targeted operational interventions.
 ---
 
 ## 4. Order Value Is Not the Primary Driver of Delays
-High-value orders do not exhibit significantly worse average delivery delays compared to lower-value orders.
 
-Delay variability appears to be driven more by **regional logistics factors** than by order value or basket size alone.
+State level analysis comparing high value and non high value orders shows no consistent
+pattern indicating that higher order value leads to worse delivery performance. Across
+most states, average delivery delays for orders with value above 500 are very similar to
+those observed for lower value orders, with differences remaining small and directionally
+inconsistent.
 
-This suggests that logistics optimization efforts should prioritize **regional bottlenecks** over value-based customer segmentation.
+While delivery performance varies substantially across states in terms of average delay,
+on time rate, and p90 delay, these differences do not systematically align with order value.
+Instead, both high value and lower value orders tend to experience similar delay behavior
+within the same state.
+
+City level analysis is used to identify where delivery performance diverges locally, while
+the order value comparison is intentionally aggregated at the state level to ensure
+sufficient sample size and stable comparisons. These two analyses serve different purposes
+and are methodologically complementary.
+
+Taken together, the results suggest that delivery delays are not primarily driven by order
+value or basket size, but by state specific logistics conditions. As a result, operational
+improvement efforts are likely to be more effective when focused on regional bottlenecks
+rather than value based customer segmentation.
+
